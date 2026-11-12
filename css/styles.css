@@ -771,6 +771,7 @@ legend { padding: 0; }
 
 /* Tarjeta de sombrero */
 .tarjeta-sombrero {
+  position: relative; /* contiene el .sr-only: si no, escapa del carrusel y ensancha la página en móvil */
   display: flex;
   flex-direction: column;
   width: 100%;
